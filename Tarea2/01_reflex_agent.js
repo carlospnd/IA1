@@ -50,7 +50,6 @@ function ensuciar(states){
 }
 
 function estados(posicion, izquierda, derecha){
-	console.log(estados.toString())
 	if (izquierda == 'DIRTY' && derecha == 'DIRTY' && posicion == 'A'){
 		estados_posibles[0] = 1;
 		return	
