@@ -22,9 +22,7 @@ function test(states){
       	else if (action_result == "RIGHT") states[0] = "B";
       	else if (action_result == "LEFT") states[0] = "A";		
 		
-		ensuciar(states)
-		//finalizar = estados_posibles == [1,1,1,1,1,1,1,1];
-    //console.log("finalizar = " + finalizar);
+	ensuciar(states);
 		
     finalizar = (estados_posibles.length == estados_final.length) && estados_posibles.every(function(element, index) {
     return element === estados_final[index]; });
